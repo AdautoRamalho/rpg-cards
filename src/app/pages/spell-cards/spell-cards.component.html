@@ -1,0 +1,56 @@
+<div style="margin-bottom: 1rem;">
+  <label for="character-select">Choose a character:</label>
+  <select id="character-select" [(ngModel)]="selectedCharacter" (change)="loadCharacter()">
+    @for (name of characters; track name) {
+      <option [value]="name">{{ name }}</option>
+    }
+  </select>
+</div>
+<div class="page">
+  @for (spell of spells; track spell.name) {
+    @if (getSplitDescription(spell)) {
+      <ng-template [ngTemplateOutlet]="splitTemplate" [ngTemplateOutletContext]="{ spell: spell, parts: getSplitDescription(spell) }"></ng-template>
+    } @else {
+      <div class="card" [ngStyle]="{ 'background-color': pastelColors[spell.level] || '#fff' }">
+        <h2>{{ spell.name }}{{ spell.ritual ? ' 📖' : '' }}</h2>
+        <div class="subtitle"><strong>Level {{ spell.level }}</strong> • {{ spell.school }}</div>
+        <div class="description" [innerHTML]="spell.description"></div>
+        <div class="footer">
+          <div class="icon-label">🕒 <span>{{ castingTimeMap[spell.castingTime] || spell.castingTime }}</span></div>
+          <div class="icon-label">⏳ <span>{{ spell.duration || 'Instant' }}</span></div>
+          <div class="icon-label">📏 <span>{{ spell.range !== 0 ? spell.range : 'Touch' }}</span></div>
+        </div>
+        <div class="footer">
+          <div class="icon-label" [innerHTML]="getComponentStringHtml(spell.components)"></div>
+          @if (spell.materials) {
+            <div class="icon-label">🧪 <span>{{ spell.materials }}</span></div>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <ng-template #splitTemplate let-spell="spell" let-parts="parts">
+    <div class="card" [ngStyle]="{ 'background-color': pastelColors[spell.level] || '#fff' }">
+      <h2>{{ spell.name }}*</h2>
+      <div class="subtitle"><strong>Level {{ spell.level }}</strong> • {{ spell.school }}</div>
+      <div class="description" [innerHTML]="parts[0]"></div>
+      <div class="footer">
+        <div class="icon-label">🕒 <span>{{ castingTimeMap[spell.castingTime] || spell.castingTime }}</span></div>
+        <div class="icon-label">⏳ <span>{{ spell.duration || 'Instant' }}</span></div>
+        <div class="icon-label">📏 <span>{{ spell.range !== 0 ? spell.range : 'Touch' }}</span></div>
+      </div>
+      <div class="footer">
+        <div class="icon-label" [innerHTML]="getComponentStringHtml(spell.components)"></div>
+        @if (spell.materials) {
+          <div class="icon-label">🧪 <span>{{ spell.materials }}</span></div>
+        }
+      </div>
+    </div>
+
+    <div class="card overflow" [ngStyle]="{ 'background-color': pastelColors[spell.level] || '#fff' }">
+      <h2>{{ spell.name }}*</h2>
+      <div class="description" [innerHTML]="parts[1]"></div>
+    </div>
+  </ng-template>
+</div>

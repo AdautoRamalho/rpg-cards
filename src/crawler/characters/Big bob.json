@@ -1,0 +1,105 @@
+{
+  "name": "Big bob",
+  "attributes": {
+    "Strength": {
+      "value": 15,
+      "modifier": 2
+    },
+    "Dexterity": {
+      "value": 10,
+      "modifier": 0
+    },
+    "Constitution": {
+      "value": 13,
+      "modifier": 1
+    },
+    "Intelligence": {
+      "value": 8,
+      "modifier": -1
+    },
+    "Wisdom": {
+      "value": 12,
+      "modifier": 1
+    },
+    "Charisma": {
+      "value": 14,
+      "modifier": 2
+    }
+  },
+  "skills": {},
+  "inventory": [
+    {
+      "name": "Handaxe",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Proficiency with a Handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Vex.</em></strong> If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>\n</div>"
+    },
+    {
+      "name": "Handaxe",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Proficiency with a Handaxe allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Vex.</em></strong> If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>\n</div>"
+    },
+    {
+      "name": "Javelin",
+      "type": "Weapon",
+      "quantity": 4,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Proficiency with a Javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><em><strong>Slow.</strong></em> If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.</p>\n</div>"
+    },
+    {
+      "name": "Greatsword",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Proficiency with a Greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Graze.</em></strong> If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.</p>\n</div>"
+    },
+    {
+      "name": "Backpack",
+      "type": "Other Gear",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+    },
+    {
+      "name": "M'Jarek Quebrada",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Em seu estado inerte, funciona como uma&nbsp;<a href=\"https://www.dndbeyond.com/equipment/30-shortsword\" target=\"_blank\">Shortword</a>. Com uma&nbsp;Bonus Action, o usuário pode invocar o espírito da lâmina, materializando-a em uma montante&nbsp;espiritual invisível aos olhos comuns (o usuário consegue vê-la). Requer 16 de Força para manejo proficiente. É tão grande que em seu estado acordado possui a propriedade Reach. A espada pode desativar automaticamente caso M'Jarek considere seu alvo inocente.</p>\n<p><br><strong>Material:&nbsp;</strong>1 Neterita (guarda), 1 Couro de Grifo (Empunhadura), 2 Pedra de Sangue (Lâmina rachada), 1 Ametista Amarela (Pomo);<br><strong>Avaliação de Valor:</strong> 700gp, podendo alcançar 1500gp (avaliação DC 18) se para colecionadores.</p>\n<p>&nbsp;</p>\n<blockquote>\n<p>Este cabo quebrado pertenceu ao herói Althaneriano <strong>Rakh’Amun Ki’Ori</strong>, (história DC 18) um defensor dos povos e protetor incansável dos caminhos entre as terras do império. Rakh’Amun era membro de uma ordem de aventureiros e heróis conhecidos por desafiar os perigos das terras selvagens e guiar os viajantes com segurança, (história DC 20) mas ele encontrou seu fim nas mãos dos exércitos de uma nobre família conhecida como os <strong>Criadores de Rios</strong>, cuja ganância e domínio sobre os caminhos fluviais os levou a temer a popularidade e a influência de Rakh’Amun entre o povo.</p>\n<p>O espírito da lâmina, conhecido como <strong>M’Jarek</strong> (véu DC 16 ou história DC 24) – um guardião dos viajantes – foi vinculado à arma por juramento, leal a Rakh’Amun mesmo após a morte. Ao pronunciar o nome do espírito, <strong>M’Jarek</strong> manifesta-se em uma lâmina espiritual invisível olhos comuns não podem ver, mantendo a lealdade de proteger e jamais atacar inocentes. <strong>M’Jarek</strong> é sábio e honra o vínculo antigo que o liga ao espírito do herói.</p>\n<p>Este cabo de espada não é meramente uma arma, mas um símbolo dos sacrifícios feitos por aqueles que desafiaram o poder e a corrupção, carregando consigo as lembranças e o juramento de um espírito que se recusa a descansar enquanto o nome do herói ecoa na história de Althaner.</p>\n</blockquote>"
+    },
+    {
+      "name": "Água da Fonte Espiritual",
+      "type": "Potion",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>Esta água tem propriedades mágicas.&nbsp;Com uma&nbsp;Bonus Action, beber ou dar de beber para uma criatura a 5 pés (1.5 metros) de você. A criatura que beber esta água cristalina e refrescante recupera 2d4 + 2 Hit Points.</p>\n<p>&nbsp;</p>\n<blockquote>\n<p>A maioria das águas do outro lado do véu são nocivas para os mortais, mas com a ajuda de um espirito bondoso é possível purificar a água de forma que ela não apenas acabe com a sede mas que também alimente o espirito de quem a bebe.</p>\n</blockquote>"
+    },
+    {
+      "name": "Shael do Vento Silente",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": true,
+      "description": "<p>Apesar de ter sido produzido utilizando&nbsp;materiais relativamente simples, este arco longo foi&nbsp;produzido com maestria, adornado e imbuído usando materiais carregados de poder. Por fim, esta obra prima foi nomeada, ajudando a dar vida a sua própria essência (no entanto é notável a contradição causada pelo nome ter sido dado por outro que não o seu dono ou artesão).</p>\n<p>Ao respirar fundo e se manter em silêncio enquanto se prepara o tiro, Shael oferece suporte ao portador, aumentando o alcance do tiro consideravelmente. O alcance passa a ser 225/900ft.&nbsp;<br><br>A essência robusta da terra usada para imbuir o armamento&nbsp;aventua a confusão causada pelo nome, afinal este é um arco que está intrincicamente vinculado à terra. Enquanto vinculado ao portador, Shael compartilha seus sentidos com o mesmo,&nbsp;garantindo 100ft the tremorsense.&nbsp;<br><br><strong>Material:</strong>&nbsp;2 Madeira Comum, 1 Couro Comum, 1 Ferro, 1 Inku da Terra Robusto;<br><strong>Avaliação de Valor:</strong>&nbsp;1680gp, no entanto as contradições impostas o tornam difícil de lidar, e alguns arqueiros podem não&nbsp;se sentir confortáveis quando o portam (Avaliação DC 12).</p>"
+    },
+    {
+      "name": "Fúria em Brasa",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": true,
+      "description": "<p>Criada como um presente para o caçador de recompensas Big Bob, esta arma foi feita com uma liga especial que é capaz de cortar defesas mágicas de terceiro circulo, interagir com entidades etéreas e além disso incinerar seus oponentes.&nbsp;Sua aparência é deslumbrante, raízes investidas de Mitharil formam uma das lâminas, enquanto o ferro fantasma se entrelaça com elas formando a outra. Em seu centro, a essência ígnea enriquece as lâminas com labaredas de fogo.&nbsp;</p>\n<p>Apesar de sua essência frágil, o ímpeto do artesão está presente e vivo nesta arma. O som do fogo entoa um chamado estranho, quase inaudível, apenas para aqueles dispostos a ouvir.&nbsp;</p>\n<p>&nbsp;</p>\n<blockquote>\n<p>\"Não é um lanca chamas mas também queima!\" -&nbsp;Turquesa, sobre Fúria em Brasa</p>\n</blockquote>\n<p>&nbsp;</p>\n<p><strong>Material:&nbsp;</strong>2 Mitharil, 2 Ferro Fantasma, Essência de Fogo Frágil, 1 Couro Comum.<br><strong>Avaliação de Valor:</strong>&nbsp;800gp, até 1200gp no norte (DC 18).</p>"
+    }
+  ],
+  "spells": []
+}

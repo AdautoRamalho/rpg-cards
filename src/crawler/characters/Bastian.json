@@ -1,0 +1,137 @@
+{
+  "name": "Bastian",
+  "attributes": {
+    "Strength": {
+      "value": 10,
+      "modifier": 0
+    },
+    "Dexterity": {
+      "value": 15,
+      "modifier": 2
+    },
+    "Constitution": {
+      "value": 12,
+      "modifier": 1
+    },
+    "Intelligence": {
+      "value": 13,
+      "modifier": 1
+    },
+    "Wisdom": {
+      "value": 8,
+      "modifier": -1
+    },
+    "Charisma": {
+      "value": 14,
+      "modifier": 2
+    }
+  },
+  "skills": {},
+  "inventory": [
+    {
+      "name": "Leather",
+      "type": "Armor",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>"
+    },
+    {
+      "name": "Dagger",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Proficiency with a Dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Nick.</em></strong> When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.</p>\n</div>"
+    },
+    {
+      "name": "Dagger",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>Proficiency with a Dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Nick.</em></strong> When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.</p>\n</div>"
+    },
+    {
+      "name": "Crossbow, Light",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Proficiency with a Light Crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><em><strong>Slow.</strong></em> If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.</p>\n</div>"
+    },
+    {
+      "name": "Shortbow",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>Proficiency with a Shortbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Vex.</em></strong> If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>\n</div>"
+    },
+    {
+      "name": "Shortsword",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Vex.</em></strong> If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>\n</div>"
+    },
+    {
+      "name": "Arrows",
+      "type": "Other Gear",
+      "quantity": 20,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>Arrows are&nbsp;used with&nbsp;a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>"
+    },
+    {
+      "name": "Backpack",
+      "type": "Other Gear",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+    },
+    {
+      "name": "Backpack",
+      "type": "Other Gear",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+    },
+    {
+      "name": "Thieves' Tools",
+      "type": "Other Gear",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p>"
+    },
+    {
+      "name": "Adaga do Brigadista",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Você ganha bonus de&nbsp;+1 nos rolamentos de Attack e Damage feitos com esta arma mágica.</p>\n<p>Você pode usar uma Bonus Action para magicamente envolver a lâmina com veneno. O veneno continua por 1 minuto ou até um ataque usando esta arma atingir uma criatura. O alvo precisa obter sucesso num save de Constitution DC 15 or receber 2d10 dano Poison e recebe a condição Poisoned por 1 minuto. A arma não pode ser usada desta forma novamente até o próximo nascer to sol.</p>\n<p><strong>Material:</strong>&nbsp;1 Serpentito, 1 couro comum, Inku Venenoso Robusto;<br><strong>Avaliação de Valor:</strong> 500gp, no entanto a maioria dos povos considera ilegal a venda deste tipo de arma (Avaliação DC 12).</p>\n<p>&nbsp;</p>\n<blockquote>\n<p>Esta adaga feita de <strong>Serpentito</strong> carrega&nbsp;um&nbsp;emblema com um crânio sorridente com a mandíbula quebrada, gravado na lâmina. Um teste de História DC 18 mostra que este é o simbolo da temida <strong>Brigada de Prevenção de Acidentes&nbsp;</strong>uma guilda de assassinos especializados em mortes 'acidentais'. A lâmina, com um brilho verde lustroso que lembra a pele de uma serpente, foi desenhada para envenenar ao toque, refletindo o estilo letal e discreto da guilda.</p>\n<p>Esta arma foi encontrada nos espólios de um guerreiro que conseguiu derrubar seu assassino antes de sucumbir ao veneno. Com sua associação à guilda, a adaga é tanto uma arma mortal quanto um troféu de quem desafiou a morte. Além de ser ilegal na maioria dos povos, esta arma pode chamar&nbsp;atenção indesejada, seja da lei ou da guilda.</p>\n</blockquote>"
+    },
+    {
+      "name": "Água da Fonte Espiritual",
+      "type": "Potion",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>Esta água tem propriedades mágicas.&nbsp;Com uma&nbsp;Bonus Action, beber ou dar de beber para uma criatura a 5 pés (1.5 metros) de você. A criatura que beber esta água cristalina e refrescante recupera 2d4 + 2 Hit Points.</p>\n<p>&nbsp;</p>\n<blockquote>\n<p>A maioria das águas do outro lado do véu são nocivas para os mortais, mas com a ajuda de um espirito bondoso é possível purificar a água de forma que ela não apenas acabe com a sede mas que também alimente o espirito de quem a bebe.</p>\n</blockquote>"
+    },
+    {
+      "name": "Sombra Prateada",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Enquanto estiver equipado com esta arma você pode se mover em superfícies verticais e no teto enquanto mantém suas mãos livres. Você tem Climb Speed igual a sua Speed. No entando não é possível mover-se desta maneira numa superfície escorregadia, como gelo ou área coberta de óleo.&nbsp;Visto que a lâmina é feita com Mitharil, é capaz de cortar defesas mágicas de terceiro circulo.&nbsp;</p>\n<p>Um presente para Bastian, criado para ser usado na batalha contra Fugorus nos túneis que ligam Exércia ao império Petúnico. Apesar do intúito e da vontade do artesão, a falta de uma essência torna esta arma relativamente comum, tão comum quanto qualquer equipamento de origem élfica.&nbsp;</p>\n<p><strong>Material:&nbsp;</strong>1 Mitharil, 1 Couro Comum.<br><strong>Avaliação de Valor:</strong>&nbsp;200gp.</p>\n<p>&nbsp;</p>\n<blockquote>\n<p>&nbsp;Quase ninguém procura por ameaças no teto. - Turquesa, sobre a Sombra Prateada</p>\n</blockquote>\n<p>&nbsp;</p>"
+    }
+  ],
+  "spells": []
+}

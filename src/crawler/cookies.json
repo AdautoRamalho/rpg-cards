@@ -1,0 +1,287 @@
+[
+  {
+    "name": "optimizelyEndUserId",
+    "value": "oeu1725917329877r0.21228649175809355",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_swb",
+    "value": "688f2ef2-1050-4b80-8ef8-e492395862b1",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1725917332520.8944907225030902",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_tt_enable_cookie",
+    "value": "1",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "cookie-consent",
+    "value": "granted",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_hjSessionUser_3684473",
+    "value": "eyJpZCI6IjM3MmQ2MTAxLTY0MmQtNWEyNi04OGVkLWJhNGFkOWNmNDNkNiIsImNyZWF0ZWQiOjE3MjU5MTczMzI2OTMsImV4aXN0aW5nIjp0cnVlfQ",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_gsid",
+    "value": "20734b2a422e4f59b82d7ea4a8cccedb",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_pin_unauth",
+    "value": "dWlkPU9HRm1ORFpoT1RJdFlqYzJPUzAwTXpBMkxUZ3pOemt0WlRReFpXRmpZV1kwTUdJeg",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_pxvid",
+    "value": "ae498a63-6ef2-11ef-a033-e76a9ef93aff",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "Preferences.Language",
+    "value": "1",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ResponsiveSwitch.DesktopMode",
+    "value": "1",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "Preferences.TimeZoneID",
+    "value": "1",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.monster.homebrew-create-copy.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.monster.homebrew-create.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.monster.homebrew-edit.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_ketch_consent_v1_",
+    "value": "eyJhbmFseXRpY3MiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbImFuYWx5dGljcyJdfSwiYmVoYXZpb3JhbF9hZHZlcnRpc2luZyI6eyJzdGF0dXMiOiJncmFudGVkIiwiY2Fub25pY2FsUHVycG9zZXMiOlsiYmVoYXZpb3JhbF9hZHZlcnRpc2luZyJdfSwiZXNzZW50aWFsX3NlcnZpY2VzIjp7InN0YXR1cyI6ImdyYW50ZWQiLCJjYW5vbmljYWxQdXJwb3NlcyI6WyJlc3NlbnRpYWxfc2VydmljZXMiXX0sImZ1bmN0aW9uYWwiOnsic3RhdHVzIjoiZ3JhbnRlZCIsImNhbm9uaWNhbFB1cnBvc2VzIjpbInByb2RfZW5oYW5jZW1lbnQiLCJwZXJzb25hbGl6YXRpb24iXX19",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_ttp",
+    "value": "_Gj2XI5Prii3KCEm_ZVkk28ajGf.tt.1",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "Platform",
+    "value": "ddb.web",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.magic-item.homebrew-create-copy.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.magic-item.homebrew-create.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.magic-item.homebrew-edit.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.Feat.homebrew-create.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb.toast.Feat.homebrew-edit.hide-toast",
+    "value": "true",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "optimizelySession",
+    "value": "0",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "LoginState",
+    "value": "2629ee63-47e8-45cb-87b4-2d572b4d0ceb",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "g_state",
+    "value": "{\"i_l\":0}",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "sailthru_visitor",
+    "value": "e08793b3-c340-41f0-a329-da11a4413572",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "sailthru_content",
+    "value": "418d07b58024c07dd05a7019c6933926f272f75f726fa96f84905ba6a1868d891e736396ccf0cf4d9eaf8d05f0455c947277a5fc53e6845169f8a72b7a6c3f0e06d3373ae4ede791611238f33f2bd9fc",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.353740950.1750291955",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb_vid",
+    "value": "24084d22-b0d5-4cf8-b0df-6cf289936c80",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_pxhd",
+    "value": "VXCM44Ic-B5XKZ-Qnlpag7VwVvMUVLAPmS2rdvpL7BHBdmzDYyoq3EjVtyVoE3x8VZ9ZJ-pexXbf0cK3JSnl6w",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "Geo",
+    "value": "{%22region%22:%22SC%22%2C%22country%22:%22BR%22%2C%22continent%22:%22SA%22}",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "Preferences",
+    "value": "undefined",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "sublevel",
+    "value": "MASTER",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "pxcts",
+    "value": "1ad95909-5425-11f0-aeed-9789bb02e009",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "RequestVerificationToken",
+    "value": "940f25e0-410e-4f73-b9d2-6cb43d1cc676",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "Ratings",
+    "value": "null",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.1763045248.1751662866",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ddb_sid",
+    "value": "b056f9fc-1323-4fe1-8f70-748959ab954a",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_hjSession_3684473",
+    "value": "eyJpZCI6ImFmOWVlODFhLTMyNDUtNDFhZS1iYTc5LTE1NmU1YjQ3ZWM4YyIsImMiOjE3NTE3NDQ4Mjc0ODMsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_clck",
+    "value": "vb7yq8%7C2%7Cfxc%7C0%7C1713",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_ga_NDTHXCE7HT",
+    "value": "GS2.2.s1751744827$o97$g1$t1751744926$j60$l0$h0",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_rdt_uuid",
+    "value": "1725917332237.a856b859-efcc-4874-8536-ddc7664ae9fe",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "AWSALBTG",
+    "value": "ignGxePmISvUUiuB6qREvsdeiRUjU9ytu3pCJbumoQiHKeu9yk5VCbXn2y0/gwIMUGI45REGyaivPD9YWcMTRk6TK2wNMQMQ61efwqkuJ7M4VMwvnQu5FKwnI1fwAoGzOFjPYth9yq+Xzi+9puztwBX00FqaBMPYJnAATLnq6qkZB+7T4d4",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "AWSALBTGCORS",
+    "value": "ignGxePmISvUUiuB6qREvsdeiRUjU9ytu3pCJbumoQiHKeu9yk5VCbXn2y0/gwIMUGI45REGyaivPD9YWcMTRk6TK2wNMQMQ61efwqkuJ7M4VMwvnQu5FKwnI1fwAoGzOFjPYth9yq+Xzi+9puztwBX00FqaBMPYJnAATLnq6qkZB+7T4d4",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "AWSALB",
+    "value": "/BmcSZwxkdLk56XuDJP/id3fTsG/ej4vEZ5dAqW2k/5/Mdi573x8zpdUUlpmEf3OQLBEq8vyz6sRHtser4WQ8OXWpxcFxpRmtuVvfeRxnzJZqUqHC/6Bf/LYj0iZ",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "AWSALBCORS",
+    "value": "/BmcSZwxkdLk56XuDJP/id3fTsG/ej4vEZ5dAqW2k/5/Mdi573x8zpdUUlpmEf3OQLBEq8vyz6sRHtser4WQ8OXWpxcFxpRmtuVvfeRxnzJZqUqHC/6Bf/LYj0iZ",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.905330834.1725917333",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_derived_epik",
+    "value": "dj0yJnU9M0dEeEZ2LXNXVnRSNHM4a0pCTTRyTDRKSWl1ejRXangmbj1kSE1yQVllclg1cEUzd3BudTQyZDFRJm09MSZ0PUFBQUFBR2hwZ2NNJnJtPTEmcnQ9QUFBQUFHaHBnY00mc3A9Mg",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_uetsid",
+    "value": "0447f320591a11f09a7c735a8db2cc49",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_uetvid",
+    "value": "82acbce06ef211efb4744914f261e6c5",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ttcsid",
+    "value": "1751744827608::ZZBRDUTl6Pni2N8lh3bE.39.1751744926334",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "ttcsid_CAF2LG3C77U0LHECN5QG",
+    "value": "1751744827607::VlEVqsr1TycnL22_3KSC.38.1751744926562",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_ga_8P5GQ3C7YC",
+    "value": "GS2.1.s1751744827$o99$g1$t1751745021$j54$l0$h0",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_px2",
+    "value": "eyJ1IjoiZWIzNDBiYjAtNTlkOC0xMWYwLWE1M2ItM2Q4NmY0Mjc2MTk4IiwidiI6ImFlNDk4YTYzLTZlZjItMTFlZi1hMDMzLWU3NmE5ZWY5M2FmZiIsInQiOjE3NTE3NDU3NDIxMTIsImgiOiI3ODU5MTU0NGRjMWJlZjA5Nzc2YmYzYjlmYjQzNGQxMmE0ZDQwNTUxZmMyNWE4ZTM3MTk3OGRiY2NlMWY0MjU0In0",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_clsk",
+    "value": "cyrfq9%7C1751745477640%7C8%7C1%7Cn.clarity.ms%2Fcollect",
+    "domain": ".dndbeyond.com"
+  },
+  {
+    "name": "_dd_s",
+    "value": "rum",
+    "domain": ".dndbeyond.com"
+  }
+]

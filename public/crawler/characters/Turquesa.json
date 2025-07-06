@@ -1,0 +1,1619 @@
+{
+  "name": "Turquesa",
+  "attributes": {
+    "Strength": {
+      "value": 13,
+      "modifier": 1
+    },
+    "Dexterity": {
+      "value": 10,
+      "modifier": 0
+    },
+    "Constitution": {
+      "value": 14,
+      "modifier": 2
+    },
+    "Intelligence": {
+      "value": 15,
+      "modifier": 2
+    },
+    "Wisdom": {
+      "value": 12,
+      "modifier": 1
+    },
+    "Charisma": {
+      "value": 8,
+      "modifier": -1
+    }
+  },
+  "skills": {},
+  "inventory": [
+    {
+      "name": "Plate",
+      "type": "Armor",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>"
+    },
+    {
+      "name": "Shortsword",
+      "type": "Weapon",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Proficiency with a Shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>\n<div class=\"mastery-container\"><hr>\n<p>This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.</p>\n<p><strong><em>Vex.</em></strong> If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.</p>\n</div>"
+    },
+    {
+      "name": "Backpack",
+      "type": "Other Gear",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+    },
+    {
+      "name": "Clothes, Traveler's",
+      "type": "Other Gear",
+      "quantity": 1,
+      "equipped": false,
+      "attuned": false,
+      "description": "<p>This set of clothes could consist of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.</p>"
+    },
+    {
+      "name": "Diadema de Recuperação Althaneira",
+      "type": "Wondrous item",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": true,
+      "description": "<p>Aumenta qualquer cura recebida pelo portador em <strong>+1 ponto de vida</strong>.</p>\n<p><strong>Escola do Encantamento:</strong> Transmutação, 1 hora de estudo e testes ou teste de Arcana CD 12 para identificar;<br><strong>Material:</strong>&nbsp;150gp de Lunarita;<br><strong>Desmantelamento:</strong> A estrutura simples da diadema permite fácil remoção do encantamento sem risco de danificar o mineral (Arcana CD 10);<br><strong>Avaliação de Valor:</strong> 250gp; para&nbsp;colecionadores&nbsp;ou nobres com interesse em relíquias (avaliação CD 15) pode valer o dobro.</p>\n<p>&nbsp;</p>\n<blockquote>\n<p>Este diadema, feito de <strong>Lunarita</strong>, é de um azul prateado suave, com inscrições delicadas e um brilho etéreo que remete à lua. Criado como um dos muitos presentes funerários pelos Althaneiros, ele era deixado nos sarcófagos de nobres com a esperança de que, ao retornarem à vida no futuro, pudessem recuperar-se rapidamente. O encantamento simples mas eficaz do diadema aumenta a eficácia de qualquer cura recebida, em homenagem à crença Althaneriana na vida eterna.</p>\n<p>Gravuras específicas na&nbsp;diadema sugerem (História CD 12) que pertencia a uma nobre família de “Criadores de Rios”—um título ou profissão cujas nuances se perderam com o tempo, mas que na época do império tinha grande importância.</p>\n</blockquote>"
+    },
+    {
+      "name": "Escudo de Pipa com Ambar",
+      "type": "Armor",
+      "quantity": 1,
+      "equipped": true,
+      "attuned": false,
+      "description": "<p>Além das defesas oferecidas pelo escudo e pela gema ambar (+3), o escudo de pipa permite que você gaste uma ação bonus para levantar o escudo. Até o inicio do seu próximo turno sua AC aumenta +1.&nbsp;</p>"
+    }
+  ],
+  "spells": [
+    {
+      "name": "False Life",
+      "level": 1,
+      "school": "Necromancy",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Lesser Restoration",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Shatter",
+      "level": 2,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</p>\n<p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p>\n<p><strong>At Higher Levels.&nbsp;</strong>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Feather Fall",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        3
+      ],
+      "description": "<p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Identify",
+      "level": 1,
+      "school": "Divination",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.</p>\n<p>If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Pyrotechnics",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p class=\"Core-Styles_Core-Body\">Choose an area of nonmagical flame that you can see and that fits within a 5-foot cube within range. You can extinguish the fire in that area, and you create either fireworks or smoke when you do so.</p>\n<p class=\"Core-Styles_Core-Body\"><span class=\"Serif-Character-Style_Inline-Subhead-Serif\"><strong>Fireworks</strong><em><strong>.</strong></em>&nbsp;</span>The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become blinded until the end of your next turn.</p>\n<p class=\"Core-Styles_Core-Body\"><span class=\"Serif-Character-Style_Inline-Subhead-Serif\"><strong>Smoke.</strong>&nbsp;</span>Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it.</p>",
+      "duration": {
+        "durationInterval": null,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Magic Weapon",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Spider Climb",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Alter Self",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You alter your physical form. Choose one of the following options. Its effects last for the duration, during which you can take a Magic action to replace the option you chose with a different one.</p>\n<p><strong><em>Aquatic Adaptation.</em></strong> You sprout gills and grow webs between your fingers. You can breathe underwater and gain a Swim Speed equal to your Speed.</p>\n<p><strong><em>Change Appearance.</em></strong> You alter your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and other distinguishing characteristics. You can make yourself appear as a member of another species, though none of your statistics change. You can’t appear as a creature of a different size, and your basic shape stays the same; if you’re bipedal, you can’t use this spell to become quadrupedal, for instance. For the duration, you can take a Magic action to change your appearance in this way again.</p>\n<p><strong><em>Natural Weapons.</em></strong> You grow claws (Slashing), fangs (Piercing), horns (Piercing), or hooves (Bludgeoning). When you use your Unarmed Strike to deal damage with that new growth, it deals 1d6 damage of the type in parentheses instead of dealing the normal damage for your Unarmed Strike, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Cure Wounds",
+      "level": 1,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> The healing increases by 2d8 for each spell slot level above 1.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Absorb Elements",
+      "level": 1,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": null,
+      "components": [
+        2
+      ],
+      "description": "<p>The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.</p>\n<p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Round",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Alarm",
+      "level": 1,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.</p>\n<p>A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.</p>\n<p>An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</p>",
+      "duration": {
+        "durationInterval": 8,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Protection from Poison",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Web",
+      "level": 2,
+      "school": "Conjuration",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You conjure a mass of thick, sticky webbing at a point of your choice within range. The webs fill a 20-foot cube from that point for the duration. The webs are difficult terrain and lightly obscure their area.</p>\n<p>If the webs aren't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the conjured web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.</p>\n<p>Each creature that starts its turn in the webs or that enters them during its turn must make a Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the webs or until it breaks free.</p>\n<p>A creature restrained by the webs can use its action to make a Strength check against your spell save DC. If it succeeds, it is no longer restrained.</p>\n<p>The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Arcane Lock",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a closed door, window, gate, container, or hatch and magically lock it for the duration. This lock can’t be unlocked by any nonmagical means. You and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Until Dispelled"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Purify Food and Drink",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 10,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Magic Mouth",
+      "level": 2,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You implant a message within an object in range, a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or less, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.</p>\n<p>When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that the words appear to come from the object's mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.</p>\n<p>The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Until Dispelled"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Darkvision",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>For the duration, a willing creature you touch has Darkvision with a range of 150 feet.</p>",
+      "duration": {
+        "durationInterval": 8,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Continual Flame",
+      "level": 2,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>A flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Until Dispelled"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Heat Metal",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 Fire damage when you cast the spell. Until the spell ends, you can take a Bonus Action on each of your later turns to deal this damage again if the object is within range.</p>\n<p>If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> The damage increases by 1d8 for each spell slot level above 2.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Detect Magic",
+      "level": 1,
+      "school": "Divination",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell’s school of magic.</p>\n<p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
+      "duration": {
+        "durationInterval": 10,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Rope Trick",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends.</p>\n<p>The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures. The rope can be pulled into the space, making the rope disappear from view outside the space.</p>\n<p>Attacks and spells can't cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5- foot window centered on the rope.</p>\n<p>Anything inside the extradimensional space drops out when the spell ends.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Longstrider",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a creature. The target’s Speed increases by 10 feet until the spell ends.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> You can target one additional creature for each spell slot level above 1.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Aid",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.</p>",
+      "duration": {
+        "durationInterval": 8,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Disguise Self",
+      "level": 1,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You make yourself--including your clothing, armor, weapons, and other belongings on your person--look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p>\n<p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p>\n<p>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Faerie Fire",
+      "level": 1,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1
+      ],
+      "description": "<p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p>\n<p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Expeditious Retreat",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action.</p>",
+      "duration": {
+        "durationInterval": 10,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Grease",
+      "level": 1,
+      "school": "Conjuration",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.</p>\n<p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Heat Metal",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.</p>\n<p>If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Blur",
+      "level": 2,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1
+      ],
+      "description": "<p>Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Jump",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> You can target one additional creature for each spell slot level above 1.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Levitate",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p>\n<p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.</p>\n<p>When the spell ends, the target floats gently to the ground if it is still aloft.</p>",
+      "duration": {
+        "durationInterval": 10,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Purify Food and Drink",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 10,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Magic Mouth",
+      "level": 2,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You implant a message within an object in range—a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn’t being worn or carried by another creature. Then speak the message, which must be 25 words or fewer, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.</p>\n<p>When that trigger occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there, so the words appear to come from the object’s mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.</p>\n<p>The trigger can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Until Dispelled"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Thunderwave",
+      "level": 1,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p>\n<p>In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Enhance Ability",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a creature and choose Strength, Dexterity, Intelligence, Wisdom, or Charisma. For the duration, the target has Advantage on ability checks using the chosen ability.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Blur",
+      "level": 2,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1
+      ],
+      "description": "<p>Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Magic Missile",
+      "level": 1,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 120,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Arcane Lock",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting <strong>knock</strong> on the object suppresses <strong>arcane lock</strong> for 10 minutes.</p>\n<p>While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Until Dispelled"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Enlarge/Reduce",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.</p>\n<p>Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.</p>\n<p><strong><em>Enlarge.</em></strong> The target’s size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target’s attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p>\n<p><strong><em>Reduce.</em></strong> The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Mirror Image",
+      "level": 2,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p>\n<p>Each time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates.</p>\n<p>If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p>\n<p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p>\n<p>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Rope Trick",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope’s upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.</p>\n<p>The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can’t pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "See Invisibility",
+      "level": 2,
+      "school": "Divination",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Continual Flame",
+      "level": 2,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A <strong>continual flame</strong> can be covered or hidden but not smothered or quenched.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Until Dispelled"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Sanctuary",
+      "level": 1,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from areas of effect.</p>\n<p>The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Invisibility",
+      "level": 2,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>A creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> You can target one additional creature for each spell slot level above 2.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Expeditious Retreat",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.</p>",
+      "duration": {
+        "durationInterval": 10,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Enhance Ability",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.</p>\n<p><strong>Bear's Endurance.</strong> The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.</p>\n<p><strong>Bull's Strength.</strong> The target has advantage on Strength checks, and his or her carrying capacity doubles.</p>\n<p><strong>Cat's Grace.</strong> The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.</p>\n<p><strong>Eagle's Splendor.</strong> The target has advantage on Charisma checks.</p>\n<p><strong>Fox's Cunning.</strong> The target has advantage on Intelligence checks.</p>\n<p><strong>Owl's Wisdom.</strong> The target has advantage on Wisdom checks.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Aid",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Choose up to three creatures within range. Each target’s Hit Point maximum and current Hit Points increase by 5 for the duration.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> Each target’s Hit Points increase by 5 for each spell slot level above 2.</p>",
+      "duration": {
+        "durationInterval": 8,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Disguise Self",
+      "level": 1,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": null,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.</p>\n<p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing.</p>\n<p>To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an Intelligence (Investigation) check against your spell save DC.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Snare",
+      "level": 1,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": null,
+      "components": [
+        2,
+        3
+      ],
+      "description": "<p class=\"Core-Styles_Core-Body\">As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.</p>\n<p class=\"Core-Styles_Core-Body\">This trap is nearly invisible, requiring a successful Intelligence (Investigation) check against your spell save DC to be discerned.</p>\n<p class=\"Core-Styles_Core-Body\">The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell’s radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is restrained there until the spell ends.</p>\n<p class=\"Core-Styles_Core-Body\">A&nbsp;restrained creature can make a Dexterity saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the creature or someone else who can reach it can use an action to make an Intelligence (Arcana) check against your spell save DC. On a success, the restrained effect ends.</p>\n<p class=\"Core-Styles_Core-Body\">After the trap is triggered, the spell ends when no creature is restrained by it.</p>",
+      "duration": {
+        "durationInterval": 8,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "See Invisibility",
+      "level": 2,
+      "school": "Divination",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>For the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Spider Climb",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and along ceilings, while leaving its hands free. The target also gains a Climb Speed equal to its Speed.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> You can target one additional creature for each spell slot level above 2.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Web",
+      "level": 2,
+      "school": "Conjuration",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are Difficult Terrain, and the area within them is Lightly Obscured.</p>\n<p>If the webs aren’t anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.</p>\n<p>The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the Restrained condition while in the webs or until it breaks free.</p>\n<p>A creature Restrained by the webs can take an action to make a Strength (Athletics) check against your spell save DC. If it succeeds, it is no longer Restrained.</p>\n<p>The webs are flammable. Any 5-foot Cube of webs exposed to fire burns away in 1 round, dealing 2d4 Fire damage to any creature that starts its turn in the fire.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Detect Magic",
+      "level": 1,
+      "school": "Divination",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.</p>\n<p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
+      "duration": {
+        "durationInterval": 10,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Identify",
+      "level": 1,
+      "school": "Divination",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch an object throughout the spell’s casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell’s name.</p>\n<p>If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Grease",
+      "level": 1,
+      "school": "Conjuration",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.</p>\n<p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Tasha's Caustic Brew",
+      "level": 1,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": null,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell’s duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Magic Weapon",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Longstrider",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a creature. The target’s speed increases by 10 feet until the spell ends.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Vortex Warp",
+      "level": 2,
+      "school": "Conjuration",
+      "castingTime": 1,
+      "range": 90,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd.</p>",
+      "duration": {
+        "durationInterval": null,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Alter Self",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</p>\n<p><strong>Aquatic Adaptation.</strong> You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</p>\n<p><strong>Change Appearance.</strong> You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</p>\n<p><strong>Natural Weapons.</strong> You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Protection from Poison",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.</p>\n<p>For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Air Bubble",
+      "level": 2,
+      "school": "Conjuration",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        2
+      ],
+      "description": "<p>You create a spectral globe around the head of a willing creature you can see within range. The globe is filled with fresh air that lasts until the spell ends. If the creature has more than one head, the globe of air appears around only one of its heads (which is all the creature needs to avoid suffocating;suffocation, assuming that all its heads share the same respiratory system).</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, you can create two additional globes of fresh air for each slot level above 2nd.</p>",
+      "duration": {
+        "durationInterval": 24,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Alarm",
+      "level": 1,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You set an alarm against intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot Cube. Until the spell ends, an alarm alerts you whenever a creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is audible or mental:</p>\n<p><strong>Audible Alarm.</strong> The alarm produces the sound of a handbell for 10 seconds within 60 feet of the warded area.</p>\n<p><strong>Mental Alarm.</strong> You are alerted by a mental ping if you are within 1 mile of the warded area. This ping awakens you if you’re asleep.</p>",
+      "duration": {
+        "durationInterval": 8,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Cure Wounds",
+      "level": 1,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Skywrite",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": null,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell’s duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": true
+    },
+    {
+      "name": "Faerie Fire",
+      "level": 1,
+      "school": "Evocation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1
+      ],
+      "description": "<p>Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can’t benefit from the Invisible condition.</p>\n<p>Attack rolls against an affected creature or object have Advantage if the attacker can see it.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Feather Fall",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        3
+      ],
+      "description": "<p>Choose up to five falling creatures within range. A falling creature’s rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Catapult",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        2
+      ],
+      "description": "<p>Choose one object weighing 1 to 5 pounds within range that isn’t being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take 3d8 bludgeoning damage.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st.</p>",
+      "duration": {
+        "durationInterval": null,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Jump",
+      "level": 1,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a creature. The creature's jump distance is tripled until the spell ends.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Darkvision",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.</p>",
+      "duration": {
+        "durationInterval": 8,
+        "durationUnit": "Hour",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Enlarge/Reduce",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p>\n<p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p>\n<p><strong>Enlarge.</strong> The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category-- from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.</p>\n<p><strong>Reduce.</strong> The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category--from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Kinetic Jaunt",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": null,
+      "components": [
+        2
+      ],
+      "description": "<p>You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration.</p>\n<ul>\n<li>Your walking speed increases by 10 feet.</li>\n<li>You don’t provoke opportunity attacks.</li>\n<li>You can move through the space of another creature, and it doesn’t count as difficult terrain. If you end your turn in another creature’s space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage.</li>\n</ul>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Sanctuary",
+      "level": 1,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 30,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a fireball.</p>\n<p>If the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Minute",
+        "durationType": "Time"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "False Life",
+      "level": 1,
+      "school": "Necromancy",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>You gain 2d4 + 4 Temporary Hit Points.</p>\n<p><strong><em>Using a Higher-Level Spell Slot.</em></strong> You gain 5 additional Temporary Hit Points for each spell slot level above 1.</p>",
+      "duration": {
+        "durationInterval": null,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Invisibility",
+      "level": 2,
+      "school": "Illusion",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>",
+      "duration": {
+        "durationInterval": 1,
+        "durationUnit": "Hour",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Levitate",
+      "level": 2,
+      "school": "Transmutation",
+      "castingTime": 1,
+      "range": 60,
+      "components": [
+        1,
+        2,
+        3
+      ],
+      "description": "<p>One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p>\n<p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target’s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a Magic action to move the target, which must remain within the spell’s range.</p>\n<p>When the spell ends, the target floats gently to the ground if it is still aloft.</p>",
+      "duration": {
+        "durationInterval": 10,
+        "durationUnit": "Minute",
+        "durationType": "Concentration"
+      },
+      "materials": "",
+      "ritual": false
+    },
+    {
+      "name": "Lesser Restoration",
+      "level": 2,
+      "school": "Abjuration",
+      "castingTime": 1,
+      "range": 0,
+      "components": [
+        1,
+        2
+      ],
+      "description": "<p>You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.</p>",
+      "duration": {
+        "durationInterval": 0,
+        "durationUnit": null,
+        "durationType": "Instantaneous"
+      },
+      "materials": "",
+      "ritual": false
+    }
+  ]
+}
