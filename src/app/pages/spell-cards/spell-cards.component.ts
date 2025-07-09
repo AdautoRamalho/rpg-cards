@@ -1,22 +1,10 @@
-import {AfterViewChecked, Component, OnInit} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {FormsModule} from '@angular/forms';
+import { AfterViewChecked, Component, OnInit, ViewChildren, ElementRef, QueryList } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import truncate from 'truncate-html';
-import {ViewChildren, ElementRef, QueryList} from '@angular/core'
-import {LucideAngularModule} from 'lucide-angular';
-
-interface Spell {
-  name: string;
-  level: number;
-  school: string;
-  description: string;
-  castingTime: string;
-  duration?: string;
-  range: number;
-  components: number[];
-  componentsDescription: string;
-  ritual?: boolean;
-}
+import { LucideAngularModule } from 'lucide-angular';
+import { Spell } from '../../models/spell';
+import { SpellService } from '../../services/spell.service';
 
 @Component({
   selector: 'app-spell-cards',
@@ -39,6 +27,8 @@ export class SpellCardsComponent implements OnInit, AfterViewChecked {
 
   processedSpells: { spell: any, split: [string, string] | null }[] = [];
 
+  constructor(private spellService: SpellService) {}
+
   pastelColors = [
     '#f9f2ec', '#e1f5fe', '#e8f5e9', '#fff3e0', '#f3e5f5',
     '#e0f7fa', '#fce4ec', '#ede7f6', '#fffde7', '#eceff1'
@@ -50,23 +40,10 @@ export class SpellCardsComponent implements OnInit, AfterViewChecked {
 
   loadCharacter(): void {
     this.hasAdjustedFont = false;
-    const filename = `/crawler/characters/${this.selectedCharacter}.json`;
-
-    fetch(filename)
-      .then(res => res.json())
-      .then(data => {
-        const seen = new Map();
-        for (const spell of data.spells) {
-          if (spell.level >= this.selectedLevel && (!seen.has(spell.name) || seen.get(spell.name).level > spell.level)) {
-            seen.set(spell.name, spell);
-          }
-        }
-        this.spells = Array.from(seen.values()).sort(
-          (a, b) => a.level - b.level || a.name.localeCompare(b.name)
-        );
-
+    this.spellService.getSpells(this.selectedCharacter, this.selectedLevel)
+      .subscribe(spells => {
+        this.spells = spells;
         let index = 0;
-
         this.processedSpells = this.spells.map(spell => ({
           spell,
           split: this.getSplitDescription(spell),
