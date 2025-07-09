@@ -2,6 +2,21 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
+function getCastingTimeLabel(type, time) {
+  const typeMap = {
+    1: 'Action',
+    2: 'uk1',
+    3: 'Bonus',
+    4: 'React',
+    5: 'uk2',
+    6: 'Minute',
+    7: 'uk3'
+  };
+
+  const label = typeMap[type] || 'Unknown';
+  return time ? `${time} ${label}` : label;
+}
+
 async function fetchCharacterJSON(id, cookieString) {
   const url = `https://www.dndbeyond.com/character/${id}/json`;
   try {
@@ -75,12 +90,15 @@ function simplifyCharacter(data) {
         name: spell.definition.name,
         level: spell.definition.level,
         school: spell.definition.school,
-        castingTime: spell.definition.activation?.activationTime,
+        castingTime: getCastingTimeLabel(
+          spell.definition.activation?.activationType,
+          spell.definition.activation?.activationTime
+        ),
         range: spell.definition.range?.rangeValue,
         components: spell.definition.components || [],
+        componentsDescription: spell.definition.componentsDescription || '',
         description: spell.definition.description || '',
-        duration: spell.definition.duration || 'Instantaneous',
-        materials: spell.definition.materials || '',
+        duration: spell.definition.duration || 'Instant',
         ritual: spell.definition.ritual || false
       });
     });
@@ -98,7 +116,7 @@ const characterIds = [
   '128386640'  // Bastian
 ];
 
-const outputDir = path.join(__dirname, 'characters');
+const outputDir = path.join(__dirname, '../../public/crawler/characters');
 
 (async () => {
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
@@ -111,8 +129,12 @@ const outputDir = path.join(__dirname, 'characters');
     const data = await fetchCharacterJSON(charId, cookieString);
     if (!data) continue;
 
+    const outputPath2 = path.join(outputDir, `${charId}.json`);
+    fs.writeFileSync(outputPath2, JSON.stringify(data, null, 2));
+
     const simplified = simplifyCharacter(data);
     const outputPath = path.join(outputDir, `${simplified.name}.json`);
+
     fs.writeFileSync(outputPath, JSON.stringify(simplified, null, 2));
     console.log(`✅ Saved ${simplified.name} to ${outputPath}`);
   }

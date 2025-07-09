@@ -1,30 +1,51 @@
-<div style="margin-bottom: 1rem;">
+<div class="no-print" style="margin-bottom: 1rem;">
   <label for="character-select">Choose a character:</label>
   <select id="character-select" [(ngModel)]="selectedCharacter" (change)="loadCharacter()">
     @for (name of characters; track name) {
       <option [value]="name">{{ name }}</option>
     }
   </select>
+
+  <label for="level-select">Show Above Level</label>
+  <select id="level-select" [(ngModel)]="selectedLevel" (change)="loadCharacter()">
+    <option [value]="1">1</option>
+    <option [value]="2">2</option>
+    <option [value]="3">3</option>
+    <option [value]="4">4</option>
+    <option [value]="5">5</option>
+    <option [value]="6">6</option>
+    <option [value]="7">7</option>
+    <option [value]="8">8</option>
+    <option [value]="9">9</option>
+  </select>
 </div>
+@for (page of getSpellPages(); track page.index) {
 <div class="page">
-  @for (spell of spells; track spell.name) {
-    @if (getSplitDescription(spell)) {
-      <ng-template [ngTemplateOutlet]="splitTemplate" [ngTemplateOutletContext]="{ spell: spell, parts: getSplitDescription(spell) }"></ng-template>
+  @for (item of page.page; track item.spell.name) {
+    @if (item.split) {
+      <ng-template [ngTemplateOutlet]="splitTemplate" [ngTemplateOutletContext]="{ spell: item.spell, parts: item.split }"></ng-template>
     } @else {
-      <div class="card" [ngStyle]="{ 'background-color': pastelColors[spell.level] || '#fff' }">
-        <h2>{{ spell.name }}{{ spell.ritual ? ' 📖' : '' }}</h2>
-        <div class="subtitle"><strong>Level {{ spell.level }}</strong> • {{ spell.school }}</div>
-        <div class="description" [innerHTML]="spell.description"></div>
+      <div class="card" [ngStyle]="{ 'background-color': pastelColors[item.spell.level] || '#fff' }">
+        @if (item.spell.ritual) {
+          <h2>{{ item.spell.name }}<lucide-icon name="Scroll" size="16"></lucide-icon></h2>
+        } @else {
+          <h2>{{ item.spell.name }}</h2>
+        }
+        <div class="subtitle"><strong>Level {{ item.spell.level }}</strong> • {{ item.spell.school }}</div>
+        <div class="description" [innerHTML]="item.spell.description"></div>
         <div class="footer">
-          <div class="icon-label">🕒 <span>{{ castingTimeMap[spell.castingTime] || spell.castingTime }}</span></div>
-          <div class="icon-label">⏳ <span>{{ spell.duration || 'Instant' }}</span></div>
-          <div class="icon-label">📏 <span>{{ spell.range !== 0 ? spell.range : 'Touch' }}</span></div>
+          <div class="icon-label"><lucide-icon name="Clock" size="16"></lucide-icon> <span>{{ item.spell.castingTime }}</span></div>
+          <div class="icon-label"><lucide-icon name="Hourglass" size="16"></lucide-icon> <span>{{ formatDuration(item.spell.duration) }}</span></div>
+          <div class="icon-label"><lucide-icon name="Ruler" size="16"></lucide-icon> <span>{{ formatRange(item.spell.range) }}</span></div>
         </div>
         <div class="footer">
-          <div class="icon-label" [innerHTML]="getComponentStringHtml(spell.components)"></div>
-          @if (spell.materials) {
-            <div class="icon-label">🧪 <span>{{ spell.materials }}</span></div>
-          }
+          <div class="icon-label components" [innerHTML]="getComponentStringHtml(item.spell.components)"></div>
+
+            <div class="icon-label components-desc">
+              @if (item.spell.componentsDescription !== '') {
+                <lucide-icon name="FlaskConical" size="16"></lucide-icon> <span>{{ item.spell.componentsDescription }}</span>
+              }
+            </div>
         </div>
       </div>
     }
@@ -32,25 +53,33 @@
 
   <ng-template #splitTemplate let-spell="spell" let-parts="parts">
     <div class="card" [ngStyle]="{ 'background-color': pastelColors[spell.level] || '#fff' }">
-      <h2>{{ spell.name }}*</h2>
+      @if (spell.ritual) {
+        <h2>{{ spell.name }}*<lucide-icon name="Scroll" size="16"></lucide-icon></h2>
+      } @else {
+        <h2>{{ spell.name }}*</h2>
+      }
       <div class="subtitle"><strong>Level {{ spell.level }}</strong> • {{ spell.school }}</div>
+
       <div class="description" [innerHTML]="parts[0]"></div>
       <div class="footer">
-        <div class="icon-label">🕒 <span>{{ castingTimeMap[spell.castingTime] || spell.castingTime }}</span></div>
-        <div class="icon-label">⏳ <span>{{ spell.duration || 'Instant' }}</span></div>
-        <div class="icon-label">📏 <span>{{ spell.range !== 0 ? spell.range : 'Touch' }}</span></div>
+        <div class="icon-label"><lucide-icon name="Clock" size="16"></lucide-icon> <span>{{ spell.castingTime }}</span></div>
+        <div class="icon-label"><lucide-icon name="Hourglass" size="16"></lucide-icon> <span>{{ formatDuration(spell.duration) || 'Instant' }}</span></div>
+        <div class="icon-label"><lucide-icon name="Ruler" size="16"></lucide-icon> <span>{{ formatRange(spell.range) }}</span></div>
       </div>
       <div class="footer">
-        <div class="icon-label" [innerHTML]="getComponentStringHtml(spell.components)"></div>
-        @if (spell.materials) {
-          <div class="icon-label">🧪 <span>{{ spell.materials }}</span></div>
-        }
+        <div class="icon-label components" [innerHTML]="getComponentStringHtml(spell.components)"></div>
+          <div class="icon-label components-desc">
+            @if (spell.componentsDescription !== '') {
+              <lucide-icon name="FlaskConical" size="16"></lucide-icon> <span>{{ spell.componentsDescription }}</span>
+            }
+          </div>
       </div>
     </div>
 
     <div class="card overflow" [ngStyle]="{ 'background-color': pastelColors[spell.level] || '#fff' }">
       <h2>{{ spell.name }}*</h2>
-      <div class="description" [innerHTML]="parts[1]"></div>
+      <div class="description overflow" #overflowDescription [innerHTML]="parts[1]"></div>
     </div>
   </ng-template>
 </div>
+}

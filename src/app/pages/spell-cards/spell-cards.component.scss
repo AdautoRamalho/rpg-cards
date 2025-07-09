@@ -7,7 +7,7 @@ body {
 .page {
   width: 210mm;
   height: 297mm;
-  padding: 10mm;
+  padding: 5mm;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -17,6 +17,7 @@ body {
 }
 
 .card {
+  border: 1px solid black; /* Add this line */
   border-radius: 10px;
   padding: 10px;
   box-sizing: border-box;
@@ -30,14 +31,14 @@ body {
   color: #222;
 
   h2 {
-    margin: 0 0 6px 0;
+    margin: 0 0 2px 0;
     font-size: 14pt;
     font-weight: bold;
   }
 
   .subtitle {
     font-size: 10pt;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     font-weight: bold;
   }
 
@@ -47,7 +48,7 @@ body {
     overflow: hidden;
 
     &.overflow {
-      font-size: 8pt;
+      font-size: 6.6pt;
     }
   }
 
@@ -73,5 +74,45 @@ body {
         color: black;
       }
     }
+
+    .components {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .components-desc {
+      font-size: 6pt;
+      grid-column: span 4;
+      flex: 1 1 85%;
+    }
+  }
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    margin: 0;
+    background: none;
+  }
+
+  .page {
+    page-break-after: always;
+    break-after: page;
+    width: 210mm;
+    height: 297mm;
+    box-sizing: border-box;
+    padding: 3mm;
+  }
+
+  .card {
+    break-inside: avoid;
+  }
+
+  .no-print {
+    display: none !important;
   }
 }

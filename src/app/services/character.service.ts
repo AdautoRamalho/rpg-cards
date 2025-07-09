@@ -21,6 +21,7 @@ export interface SimplifiedCharacter {
     castingTime: string;
     range: number;
     components: any;
+    componentsDescription: string;
     description: string;
   }[];
 }
@@ -101,6 +102,7 @@ export class CharacterService {
           castingTime: spell.definition.activation.activationTime,
           range: spell.definition.range.rangeValue,
           components: spell.definition.components,
+          componentsDescription: spell.definition.componentsDescription,
           description: spell.definition.description
         });
       });
