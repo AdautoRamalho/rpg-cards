@@ -1,0 +1,56 @@
+<h1>RPG Crafting Item Lookup</h1>
+
+<div class="filters">
+  <input type="text" [(ngModel)]="nameFilter" placeholder="Search by Name" (input)="applyFilters()" />
+  <input type="text" [(ngModel)]="sourceFilter" placeholder="Search by Source" (input)="applyFilters()" />
+  <input type="text" [(ngModel)]="attributeFilter" placeholder="Search by Attribute" (input)="applyFilters()" />
+  <input type="text" [(ngModel)]="tagFilter" placeholder="Search by Tag" (input)="applyFilters()" />
+  <button (click)="applyFilters()">Search</button>
+</div>
+
+@for (item of filteredItems; track item.name) {
+  <div class="item">
+    <div class="item-row">
+      @if (item.image) {
+        <div class="image-container" (click)="openImage(item.image)">
+          <img
+            [ngSrc]="'/data/' + item.image"
+            [alt]="item.name"
+            width="300"
+            height="300"
+            loading="lazy"
+            decoding="async" />
+        </div>
+      }
+      <div class="item-content">
+        <h2>{{ item.name }}</h2>
+        <p>{{ item.description }}</p>
+
+        <div>
+          @for (attr of item.attributes; track $index) {
+            <span class="attribute" [style.backgroundColor]="getAttributeColor(attr)">
+            {{ attr.description }} ({{ attr.weight }})
+          </span>
+          }
+        </div>
+
+        <div>
+          @for (src of item.sources; track src.location) {
+            <span class="source">{{ src.location }} ({{ src.chance }})</span>
+          }
+        </div>
+
+        <div>
+          @for (tag of item.tags; track tag) {
+            <span class="tag">{{ tag }}</span>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+}
+@if (modalImage) {
+  <div class="modal-backdrop" (click)="closeImage()">
+    <img class="modal-image" [src]="'/data/' + modalImage" alt="Full size image" />
+  </div>
+}

@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px;
+  margin: 0;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.slot {
+  width: 2.5in;
+  height: 3.5in;
+  border: 2px dashed #999;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.spoiler-header {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+@media print {
+  body {
+    background-color: #fff;
+  }
+
+  .slot {
+    page-break-inside: avoid;
+  }
+}
+
+.page {
+  page-break-after: always;
+  break-after: page;
+  width: 297mm;
+  height: 210mm;
+  box-sizing: border-box;
+  padding: 0mm;
+}
