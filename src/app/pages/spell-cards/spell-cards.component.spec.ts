@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { of } from 'rxjs';
 import { SpellCardsComponent } from './spell-cards.component';
+import { SpellService } from '../../services/spell.service';
 
 describe('SpellCardsComponent', () => {
   let component: SpellCardsComponent;
@@ -8,7 +9,10 @@ describe('SpellCardsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SpellCardsComponent]
+      imports: [SpellCardsComponent],
+      providers: [
+        { provide: SpellService, useValue: { getSpells: () => of([]) } }
+      ]
     })
     .compileComponents();
 
