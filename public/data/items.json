@@ -7988,5 +7988,18 @@
     ],
     "description": "Núcleo denso e nodoso de um crescimento micelial, semelhante a um tubérculo. Veja a lista de receitas do Guia de Heliana para exemplos de itens criáveis com este material.",
     "image": "nodulo-fungico.png"
+  },
+  {
+    "name": "Sucata Magitec",
+    "dificulty": "5",
+    "sources": [],
+    "attributes": [],
+    "tags": [
+      "partes",
+      "harvesting",
+      "magitec"
+    ],
+    "description": "Restos e partes diversas que por conta própria não servem para nada, no entanto podem ser usados em gambiarras magitec afim de construir dispositivos e parafernalha.",
+    "image": "sucata-magitec.png"
   }
 ]

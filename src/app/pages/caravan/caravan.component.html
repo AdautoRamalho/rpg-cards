@@ -1,0 +1,55 @@
+<div class="wagon-list">
+  <input
+    type="text"
+    placeholder="🔍 Buscar vagão..."
+    [(ngModel)]="searchTerm"
+    class="search-input"
+  />
+
+  <div class="canvas-grid">
+    @for (wagon of filteredWagons; track wagon.name) {
+      <div
+        class="wagon-token"
+        [ngStyle]="getWagonStyle(wagon)"
+        (mousedown)="onMouseDown($event, wagon)"
+        (click)="openModal(wagon)"
+        [title]="wagon.name"
+      >
+        <div class="token-label">
+          <strong>{{ wagon.name }}</strong>
+          <div class="coords">({{ wagon.x ?? 0 }}, {{ wagon.y ?? 0 }})</div>
+        </div>
+      </div>
+    }
+  </div>
+
+  <!-- Modal -->
+  @if (selectedWagon) {
+    <div class="modal-overlay" (click)="closeModal()">
+      <div class="modal" (click)="$event.stopPropagation()">
+        <button class="close-btn" (click)="closeModal()">✖</button>
+        <h2>{{ selectedWagon.name }} <small>({{ selectedWagon.type }})</small></h2>
+        <p><strong>Tamanho:</strong> {{ selectedWagon.size }}</p>
+        <p><strong>Descrição:</strong> {{ selectedWagon.description }}</p>
+
+        @if (selectedWagon.beast.length > 0) {
+          <h4>Animais de tração:</h4>
+          <ul>
+            @for (b of selectedWagon.beast; track b.name) {
+              <li><strong>{{ b.name }}</strong> ({{ b.type }}): {{ b.description }}</li>
+            }
+          </ul>
+        }
+
+        @if (selectedWagon.member.length > 0) {
+          <h4>Membros:</h4>
+          <ul>
+            @for (m of selectedWagon.member; track m.name) {
+              <li><strong>{{ m.name }}</strong> ({{ m.type }}): {{ m.description }}</li>
+            }
+          </ul>
+        }
+      </div>
+    </div>
+  }
+</div>

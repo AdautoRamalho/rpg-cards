@@ -1,0 +1,486 @@
+[
+  {
+    "type": "carroça",
+    "name": "palco 1",
+    "size": "4x3",
+    "x": 25,
+    "y": 12,
+    "description": "Uma carroça espaçosa usada como palco para apresentações, decorada com tecidos coloridos e pequenos sinos que tilintam com o movimento. Possui uma pequena estrutura desmontável para improvisar encenações e contar histórias durante as paradas.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Pinhão",
+        "description": "Cavalo castanho, calmo e paciente, ideal para longas viagens sem pressa."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Jonas Trevo",
+        "description": "Homem simples e alegre, cabelo curto castanho-claro, rosto amigável. Gosta de contar histórias divertidas sobre viagens."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "palco 2",
+    "size": "4x3",
+    "x": 30,
+    "y": 14,
+    "description": "Carroça adaptada para apresentações artísticas, com estrutura leve e espaço interno decorado com fitas coloridas e instrumentos simples. Usada para animar a caravana com cantos e pequenas encenações.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Gaviota",
+        "description": "Cavalo malhado, curiosa e rápida, sempre atenta ao redor e cheia de energia."
+      }
+    ],
+    "member": [
+      {
+        "type": "halfling",
+        "name": "Luana Moinhos",
+        "description": "Pequena, rosto redondo e olhos vivos. Sempre animada e otimista, adora cantar enquanto viaja."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "palco 3",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Uma carroça bem cuidada, com laterais reforçadas e espaço versátil para apresentações ou reuniões. Levemente ornamentada com bandeirolas e entalhes simples nas madeiras.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Caramelo",
+        "description": "Cavalo bege, dócil e que adora carinho. Um companheiro confiável para longas jornadas."
+      }
+    ],
+    "member": [
+      {
+        "type": "humana",
+        "name": "Marta Carvalho",
+        "description": "Mulher madura, cabelos castanhos cacheados presos num lenço vermelho. Sempre otimista, conhece bem as estradas e adora cantarolar. Ex-caçadora de recompensas irmã mais nova de Velna escondida na caravana."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "cozinha 1",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Carroça adaptada como cozinha móvel, equipada com fogareiros fixos, prateleiras para mantimentos e ganchos para pendurar panelas. Sempre exala cheiros convidativos durante a viagem.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Ventania",
+        "description": "Cavalo preto, forte e resistente, ideal para puxar carroças mais pesadas com firmeza constante."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Rodrigo Calhas",
+        "description": "Alto e magro, sempre parece cansado, mas muito eficiente e calmo com os animais. Também é músico, e gosta de tocar durante os intervalos."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "estoque 1",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Carroça de armazenamento, reforçada para proteger cargas delicadas ou pesadas. Seu interior é organizado com caixas, barris e compartimentos com trancas simples.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Relâmpago",
+        "description": "Cavalo cinza, enérgico e impaciente, sempre puxando a carroça com pressa, exigindo atenção constante dos condutores."
+      }
+    ],
+    "member": [
+      {
+        "type": "humana",
+        "name": "Lina Amoras",
+        "description": "Menina de 13 anos, pequena e sempre risonha, com cabelos cacheados. Gosta de preparar petiscos para a viagem e se diverte com tarefas simples."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "dormitório 1",
+    "size": "2x3",
+    "x": 0,
+    "y": 0,
+    "description": "Carroça adaptada para descanso, com colchonetes, cobertores dobrados e baús com pertences pessoais. Um espaço simples, mas acolhedor para os viajantes recuperarem as energias.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Chocolate",
+        "description": "Cavalo baio, gentil e confiável, com um passo constante e temperamento tranquilo."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Tomás Pedregulho",
+        "description": "Jovem musculoso, rosto sério, dedicado ao trabalho e habilidoso com reparos rápidos durante a jornada."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "dormitório 2",
+    "size": "2x3",
+    "x": 0,
+    "y": 0,
+    "description": "Carroça reservada para descanso, com cortinas discretas, cama dobrável e espaço para pertences pessoais. Um local silencioso, ideal para quem prefere privacidade.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Sereno",
+        "description": "Cavalo branco, tranquilo e inteligente, sempre atento ao caminho e sensível aos comandos."
+      }
+    ],
+    "member": [
+      {
+        "type": "humana",
+        "name": "Eloá Pinheiro",
+        "description": "Jovem quieta, muito observadora e atenta, especialista em lidar com emergências no caminho. Tem um olhar sempre vigilante e postura serena."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "refeitório 1",
+    "size": "4x2",
+    "x": 0,
+    "y": 0,
+    "description": "Uma carroça adaptada como área de refeição comunitária, com bancos dobráveis e uma mesa central fixa. Sempre há cheiro de chá, pão fresco ou alguma história sendo contada.",
+    "beast": [
+      {
+        "type": "pônei robusto",
+        "name": "Trovãozinho",
+        "description": "Pônei cinzento e robusto, determinado apesar do tamanho pequeno. Puxa sua carroça com bravura admirável."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Bento Olival",
+        "description": "Pequeno e vigoroso, com bigodes volumosos e chapéu de palha. É simpático e adora contar histórias engraçadas para animar a viagem."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "transporte 1",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Carroça utilizada para transporte geral de cargas e passageiros, com cobertura de lona clara e estrutura reforçada. É versátil e bem cuidada, adequada para longas distâncias.",
+    "beast": [
+      {
+        "type": "égua",
+        "name": "Lua",
+        "description": "Égua branca, tranquila e amigável, confiável para viagens longas e boa com outros animais."
+      }
+    ],
+    "member": [
+      {
+        "type": "humana",
+        "name": "Clarissa Grão-d'Ouro",
+        "description": "Jovem tranquila, cabelos loiros em tranças, sempre com um sorriso gentil. Especialista em cozinhar com ingredientes simples durante as viagens."
+      }
+    ]
+  },
+  {
+    "type": "carroça",
+    "name": "estoque 2",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Carroça de armazenamento extra, organizada com caixas reforçadas, sacas e equipamentos sob redes de contenção. Usada para suprimentos diversos da caravana.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Poeira",
+        "description": "Cavalo castanho-claro, resistente e acostumado a viagens longas, com passo firme e constante."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Tales Estradeiro",
+        "description": "Homem maduro, pele bronzeada pelo sol, rosto enrugado e chapéu de palha. Experiente viajante e ótimo contador de histórias."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão Místico",
+    "size": "4x2",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão encantado com detalhes arcanos entalhados na madeira, lanternas de cristal flutuando ao redor e um leve brilho mágico que pulsa em tons dourados. É um centro de estudos e práticas místicas da caravana.",
+    "beast": [],
+    "member": [
+      {
+        "type": "fada arcanista",
+        "name": "Fayla Luzetérea",
+        "description": "Pequena fada de cabelos prateados e asas translúcidas douradas. Brincalhona, sábia em magia arcana e profundamente curiosa sobre o mundo."
+      },
+      {
+        "type": "espírito mágico",
+        "name": "Luminar",
+        "description": "Criatura luminosa que lembra uma raposa feita de pura luz dourada. Travesso, mas protetor, serve como familiar e guardião mágico do vagão."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão do Capitão",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão robusto, de estrutura reforçada, com estandartes discretos e um pequeno espaço reservado para planejamento tático. Sua aparência impõe respeito, refletindo a liderança da caravana.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Brasa",
+        "description": "Cavalo negro, valente e protetor. Sempre alerta e pronto para ação."
+      },
+      {
+        "type": "cavalo",
+        "name": "Trovoada",
+        "description": "Cavalo cinzento, forte e disciplinado, treinado para obedecer comandos com precisão militar."
+      }
+    ],
+    "member": [
+      {
+        "type": "humana",
+        "name": "Capitã Isolda Margrave",
+        "description": "Mulher firme, cabelos loiros curtos, armadura bem cuidada. Estratégica, autoritária, mas justa com seus subordinados."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão Herbário 1",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão coberto de ervas secas penduradas e caixas de madeira com raízes, frascos e plantas catalogadas. Exala um aroma constante de folhas frescas e resinas medicinais.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Alecrim",
+        "description": "Cavalo cinza claro, dócil e paciente, acostumado a viagens tranquilas e paradas frequentes."
+      },
+      {
+        "type": "cavalo",
+        "name": "Manjericão",
+        "description": "Cavalo castanho claro, curioso e ágil, com faro apurado e bom instinto para caminhos naturais."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Tião Raizforte",
+        "description": "Homem barbudo e desarrumado, roupas em tons naturais, sempre com ervas secas nas mãos. Gentil e conhecedor, transmite tranquilidade por onde passa."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão Herbário 2",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão leve e decorado com flores silvestres, cestos de vime e estantes com frascos rotulados. Especializado em ervas raras, chás medicinais e atalhos pela natureza.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Fumaça",
+        "description": "Cavalo cinza escuro, calmo, resistente e confiável. Não se assusta facilmente e mantém ritmo constante mesmo em trilhas difíceis."
+      },
+      {
+        "type": "cavalo",
+        "name": "Pipoca",
+        "description": "Cavalo malhado, curioso e brincalhão, costuma interagir com outros animais e pessoas da caravana com entusiasmo."
+      }
+    ],
+    "member": [
+      {
+        "type": "humana",
+        "name": "Iara Flor-de-campo",
+        "description": "Sorridente, olhos brilhantes, sempre alegre e brincalhona. Conhece muitos caminhos escondidos e atalhos. Costuma colher flores pelo caminho e deixá-las pelo vagão."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão do Sábio",
+    "size": "4x2",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão compacto e organizado, com estantes cheias de livros, mapas e pergaminhos cuidadosamente guardados. É o centro de conhecimento da caravana, sempre iluminado por lamparinas mágicas e cheiro de papel antigo.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Pergaminho",
+        "description": "Cavalo branco, inteligente e esperto, atento aos movimentos e sons ao redor. Tem um passo elegante e tranquilo."
+      }
+    ],
+    "member": [
+      {
+        "type": "halfling",
+        "name": "Mestre Donnel Colina Verdejante",
+        "description": "Halfling de aparência jovial, óculos grandes, sorriso astuto e roupas acadêmicas. Parece jovem, mas carrega sabedoria acumulada de muitas décadas."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão dos Peregrinos",
+    "size": "3x2",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão simples e sereno, com bancos acolchoados, cortinas discretas e pequenos símbolos de fé esculpidos em sua estrutura. Serve como espaço de oração, aconselhamento e contemplação durante a viagem.",
+    "beast": [
+      {
+        "type": "cavalo",
+        "name": "Serenata",
+        "description": "Cavalo bege claro, calmo e obediente, segue ordens com facilidade e raramente se assusta com barulhos inesperados."
+      },
+      {
+        "type": "égua",
+        "name": "Prece",
+        "description": "Égua malhada escura, tranquila e robusta, acostumada a terrenos variados e a longas jornadas sem pressa."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Sacerdote Elias de Montes Claros",
+        "description": "Homem gentil e de fala mansa, cabelo grisalho, transmite serenidade e confiança. Costuma ouvir os aflitos e orientar os perdidos, sendo respeitado por toda a caravana."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão da Ferraria",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão pesado e reforçado, com estrutura metálica visível, sons constantes de marteladas e cheiro de ferro quente. Equipado com forjas móveis, bigornas e ferramentas de precisão para criação e reparo de equipamentos.",
+    "beast": [
+      {
+        "type": "bisão gigante",
+        "name": "Montanha",
+        "description": "Criatura enorme e musculosa, calma e imperturbável. Suporta o peso da ferraria com facilidade e anda como se nada o abalasse."
+      }
+    ],
+    "member": [
+      {
+        "type": "anão",
+        "name": "Tharico Chaleivão",
+        "description": "Forte e alto para um anão, cabeça raspada e expressão séria. Pele bronzeada pelo calor da forja, trabalha com vigor e precisão."
+      },
+      {
+        "type": "anã",
+        "name": "Orga Chaleivão",
+        "description": "Ágil e delicada, cabelo ruivo curto, engenhosa e detalhista. Especialista nos trabalhos mais finos, com talento para encaixes, gravuras e mecanismos."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão de Suprimentos",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão meticulosamente organizado, com prateleiras, caixas numeradas e listas penduradas por toda parte. Seu interior parece um pequeno armazém ambulante, sempre em ordem impecável.",
+    "beast": [
+      {
+        "type": "mula",
+        "name": "Notas",
+        "description": "Mula forte, teimosa mas confiável. Não se deixa levar por distrações e segue sempre na mesma cadência."
+      },
+      {
+        "type": "mula",
+        "name": "Listinha",
+        "description": "Mula forte, ágil e atenta, responde bem aos comandos e raramente se desvia do percurso."
+      }
+    ],
+    "member": [
+      {
+        "type": "ratoide falante",
+        "name": "Rabisco",
+        "description": "Pequeno ratoide cinzento, com olhos atentos e óculos maiores que a própria cara. Extremamente organizado e perspicaz, sempre anotando inventários com rigor. Também é vidente e por vezes murmura previsões entre uma lista e outra."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão da Oficina",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão coberto de fuligem e madeira enegrecida, cheio de ferramentas, bancadas de trabalho e peças inacabadas. Um ambiente criativo e inquieto — onde martelos, ideias e às vezes aparições se manifestam.",
+    "beast": [
+      {
+        "type": "javali gigante",
+        "name": "Pesadelo",
+        "description": "Javali velho, grande e forte, com cicatrizes no lombo e andar lento porém constante. Trabalha duro sem reclamar, parecendo indiferente até mesmo aos sussurros fantasmagóricos do vagão."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Emílio Pregador",
+        "description": "Alto, cabelos bagunçados, usa óculos de proteção. Fala rápido e está sempre ocupado com alguma invenção maluca ou reparo urgente."
+      },
+      {
+        "type": "halfling",
+        "name": "Tobias Calheiro",
+        "description": "Baixinho, emburrado e com roupas malcuidadas. Muito criativo e eficiente, mas péssimo em interações sociais. Prefere falar com ferramentas a pessoas."
+      },
+      {
+        "type": "humana",
+        "name": "Luana Lume",
+        "description": "Jovem silenciosa, mãos ágeis e precisas, detalhista e perfeccionista. Especialista em tecidos, mecanismos e pequenos acabamentos decorativos."
+      },
+      {
+        "type": "fantasma",
+        "name": "Mestre Johan Trabalheiro",
+        "description": "Aparição translúcida azul-esverdeada de um antigo artesão, com roupas de trabalho espectralmente sujas de fuligem. Olhos dourados brilham ao observar alguém com ferramentas. Didático e exigente, realiza inspeções noturnas e busca um aprendiz digno para transmitir seus segredos antes de descansar em paz."
+      }
+    ]
+  },
+  {
+    "type": "vagão",
+    "name": "Vagão do Arsenal",
+    "size": "4x3",
+    "x": 0,
+    "y": 0,
+    "description": "Vagão reforçado com paredes espessas e compartimentos climatizados, projetado para armazenar armas, armaduras e mantimentos que exigem preservação. O ambiente é sempre frio e ordenado, com um leve cheiro de metal e conservantes.",
+    "beast": [
+      {
+        "type": "grifo jovem",
+        "name": "Geada",
+        "description": "Grifo azulado de porte médio, calmo e paciente, acostumado ao frio e ao peso das armas que carrega. Observador e silencioso, com um olhar sempre atento."
+      }
+    ],
+    "member": [
+      {
+        "type": "humano",
+        "name": "Júlio Armstrong",
+        "description": "Homem grande e robusto, sempre vestindo roupas grossas. Silencioso, prático e eficiente, é o guardião da integridade dos suprimentos mais delicados e valiosos da caravana."
+      }
+    ]
+  }
+]
